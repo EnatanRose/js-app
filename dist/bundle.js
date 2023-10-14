@@ -1,0 +1,1 @@
+(()=>{"use strict";class t{constructor(t){this.$el=document.getElementById(t),this.init()}init(){}}function e(){console.log(this.$el),this.$el.classList.toggle("hide")}const s=new class extends t{constructor(t){super(t)}init(){const t=this.$el.querySelector(".js-header-start");console.log(t),t.addEventListener("click",e.bind(this))}}("header");console.log(s)})();
