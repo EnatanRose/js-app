@@ -23,7 +23,8 @@ function tabClickHandler(event) {
            })
             event.target.classList.add('active')
             const activeTab = this.tabs.find(t => t.name === event.target.dataset.name)
-            // this.tabs.forEach(t => t.component.hide())
+            console.log(this.tabs) 
+            this.tabs.forEach(t => t.component.hide())
             activeTab.component.show()
         }
     }
