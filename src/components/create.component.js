@@ -22,9 +22,10 @@ export class CreateComponent extends Component{
             type: this.$el.type.value,
             ...this.form.value()
         }
-        console.log(formData, this.form.value())
-    } else {
-        console.warn('form is invalid')
+        this.form.clear()
+
+        console.log(formData)
+        
     }
 }
 }
