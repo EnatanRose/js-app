@@ -2,6 +2,10 @@
     display: none !important;
 }
 
+.center {
+    text-align: center;
+}
+
 .w-container {
     margin: 0 auto;
     width: 600px;
